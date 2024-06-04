@@ -1,0 +1,9 @@
+langchain
+unstructured
+chromadb
+tiktoken
+langsmith
+langchain-cli
+langchain-nvidia-ai-endpoints
+langchain_community
+markdown-crawler
