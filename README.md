@@ -1,5 +1,8 @@
 ## NVIDIA LangChain DocsAgent
 
+### Demo
+
+
 ### What Inspired Me
 I thought it would be useful to have an agent that can answer questions related to corresponding framework/API documentation. This agent can grow its knowledge base by importing more information or documents into its database. So, when I want to look something up or know how a function or integration works, I only have to ask the agent in natural language.
 
@@ -9,7 +12,7 @@ Use natural language to ask questions about an API or framework documentation.
 ### Workflow
 - Download or Scrape Content from Docs as Markdown
 - Create Embeddings and Import Chunks into Chroma DB: Use NVIDIA embedding API.
-- User Interaction: Ask questions like "How do I get started with LangServe?"
+- User Interaction: Ask questions like "How do I write a chain in LangChain?"
 - Retrieve Relevant Documents: LangServe searches Chroma DB based on similarities.
 - Rank Documents: Chroma DB returns relevant documents; LangServe sends these to NVIDIA Retrieval QA Ranking API to get ranked scores.
 - Craft Custom Prompt: LangChain crafts a custom prompt with context and question using top 3 passages returned from NVIDIA QA Rank API. 

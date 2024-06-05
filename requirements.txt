@@ -6,4 +6,5 @@ langsmith
 langchain-cli
 langchain-nvidia-ai-endpoints
 langchain_community
+poetry
 markdown-crawler
